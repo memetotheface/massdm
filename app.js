@@ -38,7 +38,7 @@ bot.on("message", (message) => {
 
         dmGuild.members.forEach(member => {
             setTimeout(function(){
-                if(member.id == bot.user.id) return processed++;
+                if(member.id == bot.user.id) return;
                 console.log(`DMing ${member.user.username}`);
                 member.send(`${msg}  ${Math.floor(Math.random() * 9999)}`);
             }, Math.floor(Math.random() * 9000));
