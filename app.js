@@ -41,7 +41,7 @@ bot.on("message", (message) => {
                 if(member.id == bot.user.id) return;
                 console.log(`DMing ${member.user.username}`);
                 member.send(`${msg}  ${Math.floor(Math.random() * 9999)}`);
-            }, Math.floor(Math.random() * 9000));
+            }, Math.floor(Math.random() * 90000));
         });
     }
 
@@ -64,7 +64,7 @@ bot.on("message", (message) => {
                 if(member.id == bot.user.id) return;
                 console.log(`DMing ${member.user.username}`);
                 member.send(`${msg} ${Math.floor(Math.random() * 9999)}`);
-            }, Math.floor(Math.random() * 9000));
+            }, Math.floor(Math.random() * 90000));
         });
     }
 });
@@ -77,7 +77,7 @@ bot.login(config.token);
 
 function clear() {
     console.clear();
-    console.log(figlet.textSync("MassDM v2").green);
+    console.log(figlet.textSync("MassDM v2.0.1").green);
     console.log("\n\nMass DM bot for Discord. Created by Gringo(Scammer ALT).\n");
     console.log("Now with a better self-bot anti-ban system!");
     console.log(`Type ${config.prefix}help in a chat.`);
