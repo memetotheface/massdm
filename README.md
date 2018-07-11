@@ -34,3 +34,7 @@ Wanna donate?
 
 Hit me up on V3rmillion for my crypto/paypal address.
 https://v3rmillion.net/member.php?action=profile&uid=416339
+
+As of now, I am not giving out support for this bot. It's old code that I'm not very proud of. 
+
+If you need a custom bot, my V3rmillion account is up there^
