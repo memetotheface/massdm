@@ -41,7 +41,7 @@ bot.on("message", (message) => {
                 if(member.id == bot.user.id) return;
                 console.log(`DMing ${member.user.username}`);
                 member.send(`${msg}  ${Math.floor(Math.random() * 9999)}`);
-            }, Math.floor(Math.random() * 90000));
+            }, 30000);
         });
     }
 
